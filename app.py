@@ -18,11 +18,11 @@ try:
 except:
     GPU_AVAILABLE = False
 
-# Try lap vs lapx (for bytetrack)
-try:
-    import lap
-except ImportError:
-    import lapx as lap
+# # Try lap vs lapx (for bytetrack)
+# try:
+#     import lap
+# except ImportError:
+#     import lapx as lap
 
 # ----------------- Config -----------------
 MODEL = "yolov8n.pt"  # lightweight model

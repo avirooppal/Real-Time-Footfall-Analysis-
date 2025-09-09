@@ -24,8 +24,6 @@ This project provides a comprehensive solution for real-time people counting and
 
 
 
-[Image: Application interface showing video feed with bounding boxes, active/unique counts, and a corresponding heatmap.]
-
 -----
 
 ## Technology Stack
@@ -138,3 +136,4 @@ You can adjust the core parameters directly in the script for different performa
     ```python
     results = model.track(frame, tracker="bytetrack.yaml", persist=True, conf=0.35)
     ```
+
